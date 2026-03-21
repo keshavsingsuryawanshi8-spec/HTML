@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tourist Places</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#f1f2f6;
+}
+
+/* HEADER */
+header{
+background:#0a3d62;
+color:white;
+padding:15px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+header a{
+color:white;
+text-decoration:none;
+margin-left:15px;
+font-weight:bold;
+}
+
+/* SECTION */
+.section{
+padding:40px;
+text-align:center;
+}
+
+.section h1{
+margin-bottom:30px;
+}
+
+/* CARDS */
+.container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.card{
+background:white;
+width:280px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+overflow:hidden;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card img{
+width:100%;
+height:180px;
+object-fit:cover;
+}
+
+.card h3{
+margin:10px 0;
+}
+
+.card p{
+padding:0 15px;
+font-size:14px;
+color:#555;
+}
+
+.card a{
+display:inline-block;
+margin:15px;
+padding:8px 15px;
+background:#ff6b6b;
+color:white;
+text-decoration:none;
+border-radius:5px;
+transition:0.3s;
+}
+
+.card a:hover{
+background:#ee5253;
+}
+
+/* FOOTER */
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:12px;
+margin-top:30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>🌍 TravelWorld</h2>
+<div>
+<a href="index.html">Home</a>
+<a href="booking.html">Book</a>
+</div>
+</header>
+
+<section class="section">
+<h1>Popular Tourist Places</h1>
+
+<div class="container">
+
+<div class="card">
+<img src="fort.jpg">
+<h3>Chittorgarh Fort</h3>
+<p>Explore the historic fort and its rich cultural heritage.<br>
+    The Lands Of Maharana Pratapsing Rajputana.</p>
+<a href="booking.html">Book Now</a>
+</div>
+
+<div class="card">
+<img src="Temple.jpg">
+<h3>Ellora Caves</h3>
+<p>Ellora caves are a UNESCO World Heritage site known for their intricate rock-cut architecture In chh.Sambhajinagar.</p>
+<a href="booking.html">Book Now</a>
+</div>
+
+<div class="card">
+<img src="palaces.jpg">
+<h3>Udaipur</h3>
+<p>Visit the White City Of Lkes in India Palces Rajasthan.</p>
+<a href="booking.html">Book Now</a>
+</div>
+
+<div class="card">
+<img src="rameshwarm.jpg">
+<h3>Rameshwarm Temple</h3>
+<p>Visit the ancient temple dedicated to Lord Rama <br> Ramsetu</p>
+<a href="booking.html">Book Now</a>
+</div>
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 Tourism Website | Places Page</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Booking Confirmed</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#f1f2f6;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+/* SUCCESS BOX */
+.box{
+background:white;
+padding:40px;
+text-align:center;
+border-radius:12px;
+box-shadow:0 0 15px rgba(0,0,0,0.2);
+width:420px;
+animation:fadeIn 1s ease;
+}
+
+.box h1{
+color:#2ecc71;
+margin-bottom:15px;
+}
+
+.box p{
+font-size:18px;
+margin-bottom:25px;
+}
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#0a3d62;
+color:white;
+text-decoration:none;
+border-radius:6px;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#07406a;
+transform:scale(1.05);
+}
+
+/* ANIMATION */
+@keyframes fadeIn{
+from{opacity:0; transform:translateY(20px);}
+to{opacity:1; transform:translateY(0);}
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+<h1>✅ Booking Confirmed!</h1>
+<p>Your trip has been successfully booked.<br>
+We wish you a happy journey 🌍</p>
+
+<a href="index.html" class="btn">Go To Home</a>
+</div>
+
+</body>
+</html>
